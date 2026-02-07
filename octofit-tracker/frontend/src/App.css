@@ -1,0 +1,60 @@
+body {
+  background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+  color: #2d3a4a;
+}
+
+.container {
+  margin-top: 40px;
+  color: #2d3a4a;
+}
+
+.navbar {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  background: linear-gradient(90deg, #4e54c8 0%, #8f94fb 100%);
+  color: #fff;
+}
+
+.card {
+  margin-bottom: 24px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  background: #fff;
+  border: 1px solid #8f94fb;
+}
+
+.table {
+  background-color: #f3f6fd;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+  color: #2d3a4a;
+  border: 1px solid #4e54c8;
+}
+
+.btn-primary {
+  margin: 8px 0;
+  background: linear-gradient(90deg, #4e54c8 0%, #8f94fb 100%);
+  border: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+h2, h3 {
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #4e54c8;
+  letter-spacing: 1px;
+}
+.navbar-brand, .nav-link {
+  color: #fff !important;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+.navbar-brand:hover, .nav-link:hover {
+  color: #ffd700 !important;
+}
+.logo {
+  height: 40px;
+  margin-right: 16px;
+  vertical-align: middle;
+}
